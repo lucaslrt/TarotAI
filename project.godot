@@ -8,10 +8,25 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Resource",
+"class": "CardPrefab",
+"language": "GDScript",
+"path": "res://scenes/card/CardPrefab.gd"
+} ]
+_global_script_class_icons={
+"CardPrefab": ""
+}
+
 [application]
 
 config/name="TarotAI"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=600
+window/size/height=1024
 
 [gui]
 
